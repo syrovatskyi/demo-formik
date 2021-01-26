@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1%;
+    margin: 0 auto;
+    max-width: 450px;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+}
+
+label {
+    font-size: 16px;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #ddd;
+    color: white;
+}
+
